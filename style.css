@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-size: 1.875rem;
+    
+}
+p{
+    font-size: 0.9375rem;
+}
+p:hover{
+    color: #3d60ad;
+    cursor: pointer;
+}
+
+.container{
+    height: 47.3125rem;
+    display: flex;
+    flex-grow: 1;
+}
+.login{
+    padding-top: 15rem;
+    background-color: #edf0f5;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    color: #171C1F;
+
+}  
+
+#btn-entrar{
+    background-color: #3d60ad;
+    color: #D9D9D9;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 0.9375rem;
+    height: 2rem;
+}
+.registro{
+    color: #D9D9D9;
+    padding-top: 11rem;
+    background-color: #171C1F;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+input, select{
+    width: 15rem;
+    height: 1.5rem;
+    margin: .15rem;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+form{
+    padding: 1.25rem;
+    
+    
+}
